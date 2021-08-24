@@ -1,0 +1,27 @@
+.head-pic {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#con-head-1 {
+  padding: 0px !important;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  p {
+    width: 70% !important;
+    font-size: 0.5rem;
+  }
+  .head-pic {
+    width: 250% !important;
+    position: relative;
+    right: -150px;
+    height: 50%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
